@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "CCDashDecent W00 Bold";
+  src: url("assets/fonts/CCDashDecent-W00-Bold.woff2")format("woff2"),
+       url("assets/fonts/CCDashDecent-W00-Bold.woff")format("woff"),
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background-color: #2e1e1b;
+}
+
+#app {
+  font-family: "CCDashDecent W00 Bold";
+  font-size: 14px;
+  color: #3C2E24;
+  text-align: center;
+}
+
+a {
+  color: #E3E3E3;
+  text-decoration: none;
+}
+a:hover {
+  opacity: .8;
+}
